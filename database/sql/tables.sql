@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS "tables" ( 
+	"id" INTEGER NOT NULL, 
+	"name" TEXT NOT NULL, 
+	"a_name" TEXT NOT NULL, 
+	PRIMARY KEY("id" AUTOINCREMENT)
+);

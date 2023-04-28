@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS "buffs"(
+	"id" INTEGER NOT NULL,
+	"name" TEXT NOT NULL,
+	"effect" TEXT NOT NULL,
+	"duration" TEXT NOT NULL,
+	
+	PRIMARY KEY ("id" AUTOINCREMENT)
+);

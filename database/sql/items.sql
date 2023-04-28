@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS "items" ( 
+	"id" INTEGER NOT NULL, 
+	"name" TEXT NOT NULL, 
+	"recipes" TEXT NOT NULL, 
+	PRIMARY KEY("id" AUTOINCREMENT) 
+);
